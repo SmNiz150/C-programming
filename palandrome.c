@@ -8,11 +8,11 @@ int main() {
    for(i=0; i<((strlen(a))/2); i++) {
      if (a[i]!=a[strlen(a)-1-i])
     {
-       printf("\nNot a palandrome");
+       printf("\nNot a palindrome");
        flag=1;	
        break;
        }
   
    }
-  if(flag=0) {printf("\nPalandrome");}
+  if(flag=0) {printf("\npalindrome");}
 }
